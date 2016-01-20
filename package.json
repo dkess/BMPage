@@ -1,0 +1,47 @@
+{
+  "title": "BMPage",
+  "name": "bmpage",
+  "version": "0.0.1",
+  "description": "A startpage based on your browser bookmarks",
+  "main": "index.js",
+  "author": "Daniel Kessler",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "GPL-3.0",
+  "keywords": [
+    "jetpack"
+  ],
+  "preferences": [
+    {
+      "name": "usePreset",
+      "type": "bool",
+      "title": "Use a preset style?",
+      "description": "If this is checked, you can choose a style from the box below. If the box is not checked, you can use a custom CSS file",
+      "value": true
+    },
+    {
+      "name": "presetStyle",
+      "type": "menulist",
+      "title": "Preset style",
+      "value": 0,
+      "options": [
+        {
+          "value": "0",
+          "label": "Basic"
+        },
+        {
+          "value": "1",
+          "label": "Dark"
+        }
+      ]
+    },
+    {
+      "name": "customcss",
+      "title": "Custom CSS File",
+      "description": "A custom CSS file to use for the startpage.",
+      "type": "file",
+      "value": ""
+  }]
+}
