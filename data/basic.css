@@ -1,4 +1,32 @@
 body {
+	font-family: sans-serif;
 	display: flex;
+	justify-content: center;
 	flex-wrap: wrap;
+}
+
+.folder {
+	border: 1px solid black;
+	margin-top: 2em;
+	margin-left: 2em;
+	padding: 1em;
+	width: 13em;
+}
+
+h2 {
+	margin: 0;
+	font-size: large;
+}
+
+ul {
+	margin-top: 0.5em;
+	margin-bottom: 0;
+	padding-left: 0.5em;
+	list-style: none;
+}
+
+.keyword {
+	font-size: smaller;
+	display: inline-block;
+	width: 2.4em;
 }
