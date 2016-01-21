@@ -15,13 +15,6 @@
   ],
   "preferences": [
     {
-      "name": "usePreset",
-      "type": "bool",
-      "title": "Use a preset style?",
-      "description": "If this is checked, you can choose a style from the box below. If the box is not checked, you can use a custom CSS file",
-      "value": true
-    },
-    {
       "name": "presetStyle",
       "type": "menulist",
       "title": "Preset style",
@@ -33,9 +26,40 @@
         },
         {
           "value": "1",
-          "label": "Dark"
+          "label": "Solarized Dark"
+        },
+        {
+          "value": "2",
+          "label": "Solarized Light"
+        },
+        {
+          "value": "3",
+          "label": "Tomorrow"
+        },
+        {
+          "value": "4",
+          "label": "Tomorrow Night"
+        },
+        {
+          "value": "5",
+          "label": "Tomorrow Night Blue"
+        },
+        {
+          "value": "6",
+          "label": "Tomorrow Night Eighties"
+        },
+        {
+          "value": "7",
+          "label": "Tomorrow Night Bright"
         }
       ]
+    },
+    {
+      "name": "useCustom",
+      "type": "bool",
+      "title": "Use a custom CSS?",
+      "description": "If this is checked, you can choose your own CSS. If the box is not checked, the style from the dropdown above will be chosen.",
+      "value": false
     },
     {
       "name": "customcss",

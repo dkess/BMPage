@@ -27,10 +27,20 @@ const main = () => {
 
     var stylefile = [];
     var styletext = [];
-    if (simplePrefs.prefs["usePreset"]) {
+    if (!simplePrefs.prefs["useCustom"]) {
       var preset = simplePrefs.prefs["presetStyle"];
-      if (preset === 0) {
-        stylefile = self.data.url("basic.css");
+      presets = [
+        "basic",
+        "solarized-dark",
+        "solarized-light",
+        "tomorrow",
+        "tomorrow-night",
+        "tomorrow-night-blue",
+        "tomorrow-night-eighties",
+        "tomorrow-night-bright"
+      ];
+      if (preset >= 0 && preset < presets.length) {
+        stylefile = self.data.url(presets[preset] + ".css");
       }
     } else {
       var filename = simplePrefs.prefs["customcss"];
