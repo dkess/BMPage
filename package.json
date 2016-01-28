@@ -1,7 +1,7 @@
 {
   "title": "BMPage",
   "name": "bmpage",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A startpage based on your browser bookmarks",
   "main": "index.js",
   "author": "Daniel Kessler",
