@@ -1,5 +1,7 @@
 # BMPage
-A startpage based on your browser bookmarks.
+A new tab page based on your browser bookmarks.
+
+[Screenshot!](https://addons.cdn.mozilla.net/user-media/previews/full/170/170492.png)
 
 # How to use
 In your Firefox bookmarks, create a folder called "startpage" in your Bookmarks Menu. Then fill that folder with subfolders representing groups. As an example:
